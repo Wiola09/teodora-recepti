@@ -8,6 +8,13 @@
 </head>
 <body>
     <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Početna</a></li>
+                <!-- <li><a href="about.html">O nama</a></li>
+                <li><a href="contact.html">Kontakt</a></li> -->
+            </ul>
+        </nav>
         <h1>Dobrodošli na sajt sa receptima</h1>
         <p>Otkrijte ukusne recepte za svaki dan!</p>
     </header>
@@ -25,5 +32,11 @@
             <a href="recipe.html?recept=pasta" class="btn">Pogledaj recept</a>
         </div>
     </section>
+    <footer>
+        <p id="year">&copy; <span id="currentYear"></span> Recepti. Sva prava zadržana.</p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

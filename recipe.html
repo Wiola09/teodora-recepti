@@ -10,6 +10,13 @@
 
 <body>
     <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Početna</a></li>
+                <!-- <li><a href="about.html">O nama</a></li>
+                <li><a href="contact.html">Kontakt</a></li> -->
+            </ul>
+        </nav>
         <h1 id="recipe-title">Recept za palačinke</h1>
     </header>
     <section class="recipe-details">
@@ -30,6 +37,12 @@
                                               PRIJATNO!
                 </p>
     </section>
+        <footer>
+            <p id="year">&copy; <span id="currentYear"></span> Recepti. Sva prava zadržana.</p>
+        </footer>
+        <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
 </body>
 
 </html>
