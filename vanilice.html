@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalji recepta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Početna</a></li>
+                <!-- <li><a href="about.html">O nama</a></li>
+                <li><a href="contact.html">Kontakt</a></li> -->
+            </ul>
+        </nav>
+        <h1 id="recipe-title">Recept za vanilice</h1>
+    </header>
+    <section class="recipe-details">
+        <img src="images/vanilice.jpg" alt="Palačinke">
+        <h2>Sastojci:</h2>
+        <ul>
+            <li>200 g masti ili 250 g margarina </li>
+            <li>1 jaje + 1 žumance</li>
+            <li>4 kasike limunovog soka</li>
+            <li>60 g šećera</li>
+            <li>1 kesica vanilin šećera</li>
+           <li>500 g brašna</li>
+            <li>džem po izboru</li>
+            <li>šećer u prahu</li>
+
+
+
+        </ul>
+        <h2>Priprema:</h2>
+        <p>U posudi umutiti mikserom mast(koja je predhotno stajala na sobnoj temperaturi) da bude penasta. 
+            Dodati jaje, žumance, sok od limuna, šećer i vanilin šećer.
+            Dok mutimo dodajemo i brašno. Umesimo i rasklagijamo testo da bude debljine 5mm. Časicom vadim kružiće i stavljam na pleh.
+            Možete koristiti bilo koji oblik časice.
+            Peče se na 200°C 8-10 min. Kad budu porumenele sa donje strane, a budu bele sa gornje strane vadimo ih iz rerne i čekamo da se ohlade.
+            Kada se ohlade uzimamo jedan kruzic mazemo  ga tankim slojem džema po izboru 
+            (ja sam koristila džem od šljiva). Spajamo sa drugum kružićem i valjamo u prah šećer. Preporučejem vam da što duže odstoje, jer će tada biti lepše.
+                                        Prijatno!
+        </p>
+    </section>
+    <footer>
+        <p id="year">&copy; <span id="currentYear"></span> Recepti. Sva prava zadržana.</p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
