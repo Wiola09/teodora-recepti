@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalji recepta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Početna</a></li>
+                <!-- <li><a href="about.html">O nama</a></li>
+                <li><a href="contact.html">Kontakt</a></li> -->
+            </ul>
+        </nav>
+        <h1 id="recipe-title">Recept za pancerote</h1>
+    </header>
+    <section class="recipe-details">
+        <img src="images/pancerote.jpg" alt="pancerote">
+        <h2>Sastojci:</h2>
+        <h3>Testo</h3>
+        <ul>
+            <li>200 ml toplog mleka</li>
+            <li>100 ml tople vode</li>
+            <li>80 g ulja</li>
+            <li>6 g soli</li>
+            <li>550 g brašna (t-400)</li>
+             <li>5 g šećera</li>                                
+             <li>7 g kvasca</li>
+        </ul>
+        <h3>Fil</h3>
+        <ul>
+            <li>50 g šunke</li>
+            <li>50 g kačkavalja</li>
+            <li>90 g pavlake</li>
+            <li>50 g kečapa</li>
+            <li>origano po ukusu</li>
+        </ul>
+        <h3>Za mazanje</h3>
+        <ul>
+
+            <li>1 jaje</li>
+            <li>susam ili kim po zelji</li>
+        </ul>
+
+        <h2>Priprema:</h2>
+        <p>U posudu staviti brašno i so.Izmešati i dodati kvasac, šećer, ulje, vodu i mleko.Smesu umutiti mikserom i ostaviti
+            da odstoji 20 min.Nakon toga testo razviti na podlozi i činijom (bilo koje veličine)
+            pravimo krugove.Namažemo ih na sredini filom koji smo napravili od šunke, kačkavalja, pavlake,
+            kečapa i ako hoćemo origana.Preklopimo krug i spojimo viljuškom.Stavimo na pleh
+            i premazujemo ih jajem.Po želji možete dodati susam ili kim.Peče se na 220°C 20 min.
+                                              Prijatno!
+            
+        </p>
+    </section>
+    <footer>
+        <p id="year">&copy; <span id="currentYear"></span> Recepti. Sva prava zadržana.</p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
